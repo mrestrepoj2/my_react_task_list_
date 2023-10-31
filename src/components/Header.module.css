@@ -1,5 +1,5 @@
 .header {
-    background: black(1, 1, 22);
+    background: black;
     display: flex;
     align-items: center;
     justify-content: center;
