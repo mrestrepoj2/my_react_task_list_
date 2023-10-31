@@ -1,15 +1,14 @@
-import { useState } from 'react'
-import './App.css'
+import Header from "./components/Header"
+// import Task from "./components/Task"
+import TaskList from "./components/TaskList"
 
 function App() {
-  const [count, setCount] = useState(0)
-
   return (
-    <div className='App'>
-      <input type='text' placeholder='Ingrese una nueva tarea'>
-      </input>
-
-    </div>
+    <>
+      <Header />
+      <TaskList />
+      
+    </>
   )
 }
 
