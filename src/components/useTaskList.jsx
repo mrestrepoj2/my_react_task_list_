@@ -21,12 +21,13 @@ function useTaskList() {
     localStorage.setItem(localStorageKey, JSON.stringify(newTaskList));
   }
 
-  function addTask(taskTitle) {
+  function addTask(taskTitle, taskDescription) {
     setTaskListSave([
       ...taskList,
       {
         id: crypto.randomUUID(),
         title: taskTitle,
+        description: taskDescription,
         isCompleted: false,
       },
     ]);
@@ -50,7 +51,12 @@ function useTaskList() {
     setTaskListSave(newTaskList);
   }
 
-  return { taskList, addTask, deleteTaskById, toggleTaskCompleteById };
+  function deleteAllTasks () {
+    setTaskList([]);
+    localStorage.removeItem(localStorageKey);
+  }
+
+  return { taskList, addTask, deleteTaskById, toggleTaskCompleteById, deleteAllTasks };
 }
 
 export default useTaskList;
