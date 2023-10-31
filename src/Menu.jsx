@@ -77,13 +77,6 @@ function Menu() {
     marginTop="20"
     // left="vw"
 >  
-    <Link to="https://es.reactjs.org/">
-      <Button 
-      colorScheme='teal' variant="outline"><FaReact /></Button>
-    </Link>
-    <Link to="/tasks">
-      <Button colorScheme='green' variant="outline"><VscTasklist /></Button>
-    </Link>
     </Wrap>
     </>
   );

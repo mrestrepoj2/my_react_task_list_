@@ -38,7 +38,7 @@
   color: white;
   border-radius: 8px;
   bottom: -25px;
-  width: 64.5%;
+  width: 43%;
   max-width: 736px;
   display: flex;
   gap: 8px;
@@ -100,7 +100,7 @@
   display: flex;
   position: absolute;
   flex-direction: column;
-  background: linear-gradient(to right, rgb(0, 170, 255), #ff00ff);
+  background: blueviolet;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   bottom: 180px;
@@ -111,7 +111,7 @@
 .completeAllTasks{
   height: 70%;
   padding: 0 10px;
-  background: #ff00ff;
+  background: blue;
   color: white;
   border: none;
   border-radius: 8px;

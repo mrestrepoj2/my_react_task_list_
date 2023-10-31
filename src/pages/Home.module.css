@@ -6,7 +6,7 @@
   height: 280px;
   font-size: 50px;
   position: relative;
-  background: linear-gradient(to right, rgb(0, 170, 255), #ff00ff);
+  background: blueviolet;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   margin-top: -100px;
