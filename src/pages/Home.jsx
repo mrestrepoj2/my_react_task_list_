@@ -9,8 +9,8 @@ function Home() {
             <div className={styles.icon}>
                 <img src={home} alt="Home" width={160}/>
             </div>
-            <h1 className={styles.title}>My Task List</h1>
-            <p className={styles.message}><strong>La aplicación para administrar tareas</strong></p>
+            <h1 className={styles.title}>Lista de Tareas</h1>
+            <p className={styles.message}><strong>Crea y completa tus tareas</strong></p>
             <Link to="/tasks">
             </Link>
             </div>

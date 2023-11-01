@@ -50,7 +50,7 @@ function Header({ onAddTask, onDeleteAllTasks, onCompleteAll }) {
 
   return (
     <header className={styles.header}>
-      <h1 className={styles.todoApp}>My Task List</h1>
+      <h1 className={styles.todoApp}>ToDo App</h1>
       <img src={taskListIcon} alt="Todo App" width={120} />
 
       <form onSubmit={handleSubmit} className={styles.newTaskForm}>
